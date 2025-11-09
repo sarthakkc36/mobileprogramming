@@ -1,0 +1,148 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+#group1 {
+    background-color: blueviolet;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#group2 {
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#group3 {
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#group4 {
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.box1 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.box2 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box3 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box4 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box5 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box6 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box7 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box8 {
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.italic {
+    font-style: italic;
+}
